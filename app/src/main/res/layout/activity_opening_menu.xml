@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/menu_scroll"
+    >
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/menu_scroll">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/title_best" />
+
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/welcome_message"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal"
+            android:textIsSelectable="false"
+            android:singleLine="false"
+            android:typeface="serif"
+            android:textSize="65sp"
+            android:textStyle="italic"
+            android:textColor="@color/black" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:text="@string/new_game"
+                android:id="@+id/new_game"
+                android:textSize="50dp" />
+
+            <Button
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:text="@string/continue_game"
+                android:id="@+id/button"
+                android:textSize="50dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:text="@string/settings"
+                android:id="@+id/settings_button"
+                android:textSize="40dp" />
+
+            <Button
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:text="@string/statistics"
+                android:id="@+id/button3"
+                android:textSize="40dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

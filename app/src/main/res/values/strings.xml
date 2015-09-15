@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">SOCOpeningMenu</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome_message">Welcome to Settlers of Catan!</string>
+    <string name="continue_game">CONTINUE\nGAME</string>
+    <string name="new_game">NEW\nGAME</string>
+    <string name="settings">SETTINGS</string>
+    <string name="statistics">STATISTICS</string>
+    <string name="enabled">ENABLED</string>
+    <string name="disabled">DISABLED</string>
+    <string name="nice_mode_str">Nice Beginning?</string>
+    <string name="hard_mode_str">Hard Mode?</string>
+</resources>

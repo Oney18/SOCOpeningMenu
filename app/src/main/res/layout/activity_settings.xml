@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.oney18up.socopeningmenu.SettingsActivity"
+    android:orientation="vertical"
+    android:background="@color/menu_scroll">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/settings"
+        android:id="@+id/settings_title"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:textSize="100sp"
+        android:typeface="serif"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:id="@+id/nice_bar">
+
+            <TextView
+                android:layout_width="450dp"
+                android:layout_height="100dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/nice_mode_str"
+                android:id="@+id/nice_beg_text"
+                android:textSize="50sp" />
+
+            <ToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:text="@string/nice_mode_str"
+                android:id="@+id/nice_toggle"
+                android:textSize="60sp"
+                android:textOn="@string/enabled"
+                android:textOff="@string/disabled" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/hard_bar"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="450dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/hard_mode_str"
+                android:id="@+id/hard_mode_text"
+                android:textSize="50sp" />
+
+            <ToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hard_mode_str"
+                android:id="@+id/hard_toggle"
+                android:textOff="@string/disabled"
+                android:textOn="@string/enabled"
+                android:textSize="60sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
