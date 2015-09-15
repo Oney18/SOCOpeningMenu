@@ -37,14 +37,11 @@
                 android:id="@+id/nice_beg_text"
                 android:textSize="50sp" />
 
-            <ToggleButton
+            <Switch
                 android:layout_width="wrap_content"
-                android:layout_height="100dp"
-                android:text="@string/nice_mode_str"
-                android:id="@+id/nice_toggle"
-                android:textSize="60sp"
-                android:textOn="@string/enabled"
-                android:textOff="@string/disabled" />
+                android:layout_height="wrap_content"
+                android:id="@+id/nice_beg_switch" />
+
         </LinearLayout>
 
         <LinearLayout
@@ -62,15 +59,21 @@
                 android:id="@+id/hard_mode_text"
                 android:textSize="50sp" />
 
-            <ToggleButton
+            <Switch
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/hard_mode_str"
-                android:id="@+id/hard_toggle"
-                android:textOff="@string/disabled"
-                android:textOn="@string/enabled"
-                android:textSize="60sp" />
+                android:id="@+id/hard_switch" />
+
         </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/back"
+            android:id="@+id/button2"
+            android:layout_gravity="center_horizontal"
+            android:textSize="50sp"
+            android:onClick="closeSettings" />
     </LinearLayout>
 
 </LinearLayout>

@@ -53,14 +53,14 @@
                 android:layout_height="wrap_content"
                 android:text="@string/new_game"
                 android:id="@+id/new_game"
-                android:textSize="50dp" />
+                android:textSize="50sp" />
 
             <Button
                 android:layout_width="400dp"
                 android:layout_height="wrap_content"
-                android:text="@string/continue_game"
+                android:text="@string/tutorial"
                 android:id="@+id/button"
-                android:textSize="50dp" />
+                android:textSize="50sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -70,18 +70,14 @@
             android:layout_gravity="center_horizontal">
 
             <Button
-                android:layout_width="400dp"
+                android:layout_width="600dp"
                 android:layout_height="wrap_content"
                 android:text="@string/settings"
                 android:id="@+id/settings_button"
-                android:textSize="40dp" />
+                android:textSize="40sp"
+                android:onClick="openSettings"
+                android:nestedScrollingEnabled="false" />
 
-            <Button
-                android:layout_width="400dp"
-                android:layout_height="wrap_content"
-                android:text="@string/statistics"
-                android:id="@+id/button3"
-                android:textSize="40dp" />
         </LinearLayout>
 
     </LinearLayout>

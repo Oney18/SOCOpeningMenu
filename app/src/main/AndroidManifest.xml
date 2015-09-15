@@ -21,6 +21,10 @@
             android:name=".SettingsActivity"
             android:label="@string/title_activity_settings" >
         </activity>
+        <activity
+            android:name=".newGameActivity"
+            android:label="@string/title_activity_new_game" >
+        </activity>
     </application>
 
 </manifest>

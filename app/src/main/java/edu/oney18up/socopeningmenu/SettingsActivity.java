@@ -4,6 +4,7 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 
 public class SettingsActivity extends ActionBarActivity {
@@ -12,6 +13,14 @@ public class SettingsActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_settings);
+    }
+
+    protected void onDestroy(){
+        //add code to save settings/apply it to next game
+    }
+
+    public void closeSettings(View view) {
+        finish();
     }
 
     @Override
