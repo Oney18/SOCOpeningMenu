@@ -2,4 +2,8 @@
 <resources>
     <color name="menu_scroll">#FFFFFFB2</color>
     <color name="black">#FF000000</color>
+    <color name="blue">#FF396FFF</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#FFFF0000</color>
+    <color name="orange">#FFFF9A00</color>
 </resources>

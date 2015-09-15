@@ -53,6 +53,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/new_game"
                 android:id="@+id/new_game"
+                android:onClick="openNewGame"
                 android:textSize="50sp" />
 
             <Button
@@ -75,7 +76,6 @@
                 android:text="@string/settings"
                 android:id="@+id/settings_button"
                 android:textSize="40sp"
-                android:onClick="openSettings"
                 android:nestedScrollingEnabled="false" />
 
         </LinearLayout>

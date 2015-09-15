@@ -18,8 +18,8 @@ public class OpeningMenu extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_opening_menu);
     }
-    public void openSettings(View view) {
-        Intent intent = new Intent(this, SettingsActivity.class);
+    public void openNewGame(View view) {
+        Intent intent = new Intent(this, newGameActivity.class);
         startActivity(intent);
     }
 

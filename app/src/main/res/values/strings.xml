@@ -17,4 +17,10 @@
     <string name="new_game_options">New Game Options</string>
 
     <string name="random_map">Randomize map?</string>
+    <string name="choose_color">Choose\nyour color:</string>
+    <string name="blue">Blue</string>
+    <string name="white">White</string>
+    <string name="red">Red</string>
+    <string name="orange">Orange</string>
+    <string name="start_game">Start Game</string>
 </resources>
