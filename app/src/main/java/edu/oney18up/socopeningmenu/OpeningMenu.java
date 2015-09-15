@@ -2,13 +2,10 @@ package edu.oney18up.socopeningmenu;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.Window;
-import android.view.WindowManager;
 
 
 public class OpeningMenu extends Activity {
@@ -16,10 +13,10 @@ public class OpeningMenu extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_opening_menu);
+        setContentView(R.layout.opening_menu);
     }
     public void openNewGame(View view) {
-        Intent intent = new Intent(this, newGameActivity.class);
+        Intent intent = new Intent(this, NewGameMenu.class);
         startActivity(intent);
     }
 
