@@ -93,6 +93,12 @@
 
         <TextView
             android:layout_width="wrap_content"
+            android:layout_height="12dp"
+            android:id="@+id/spacer2"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="@string/choose_computers"
@@ -105,13 +111,6 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:layout_gravity="center">
-
-            <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="1"
-                android:id="@+id/ai_1"
-                android:textSize="45sp" />
 
             <RadioButton
                 android:layout_width="wrap_content"
@@ -130,7 +129,7 @@
 
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="25dp"
+            android:layout_height="12dp"
             android:id="@+id/spacer"
             android:layout_gravity="center_horizontal" />
 

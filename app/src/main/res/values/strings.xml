@@ -6,10 +6,6 @@
     <string name="welcome_message">Welcome to Settlers of Catan!</string>
     <string name="tutorial">START\nTUTORIAL</string>
     <string name="new_game">NEW\nGAME</string>
-    <string name="settings">SETTINGS</string>
-    <string name="statistics">STATISTICS</string>
-    <string name="enabled">ENABLED</string>
-    <string name="disabled">DISABLED</string>
     <string name="nice_mode_str">Nice Beginning?</string>
     <string name="hard_mode_str">Hard Mode?</string>
     <string name="back">BACK</string>
@@ -23,5 +19,5 @@
     <string name="red">Red</string>
     <string name="orange">Orange</string>
     <string name="start_game">Start Game</string>
-    <string name="choose_computers">Choose the amount of AI players:</string>
+    <string name="choose_computers">Choose the number of AI players:</string>
 </resources>
